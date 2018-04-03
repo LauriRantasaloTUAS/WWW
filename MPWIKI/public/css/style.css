@@ -45,7 +45,3 @@ li { display: inline; }
   text-shadow: 2px 2px black;
   color: #FF6600  ;
 }
-#footer { clear: both; border-top: 5px solid #323232; background: #393939; color: #808080; padding: 10px 0; text-align: center; }
-	#footer li { padding: 5px 8px;}
-		#footer li a { color: #CB799F; }
-	#footer #col { float: center;   }

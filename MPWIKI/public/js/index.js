@@ -1,24 +1,24 @@
-const harleyKlikkaus = () => {
+const harleyKlikkaus = (req, res) => {
     document.getElementById("harleyButton").onclick = function () {
-        location.href = "harley.html";
+        location.href = "harley";
     };
 };
 
 const hondaKlikkaus = () => {
     document.getElementById("hondaButton").onclick = function () {
-        location.href = "honda.html";
+        location.href = "honda";
     };
 };
 
 const suzukiKlikkaus = () => {
     document.getElementById("suzukiButton").onclick = function () {
-        location.href = "suzuki.html";
+        location.href = "suzuki";
     };
 };
 
 const triumphKlikkaus = () => {
     document.getElementById("triumphButton").onclick = function () {
-        location.href = "triumph.html";
+        location.href = "triumph";
     };
 };
 

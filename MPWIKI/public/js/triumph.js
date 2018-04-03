@@ -1,6 +1,6 @@
 const wikiKlikkaus = () => {
     document.getElementById("wikiButton").onclick = function () {
-        location.href = "index.html";
+        location.href = "/";
     };
 };
 window.addEventListener("load", function() {
