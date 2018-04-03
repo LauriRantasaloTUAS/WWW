@@ -1,4 +1,4 @@
-body { font: .74em Arial, Sans-Serif; background-image: url("background.jpg"); }
+  body { font-family: monospace; font-size: 1em; background-image: url("background.jpg"); }
 
 .button {
   background-color: #A9A9A9;
@@ -13,13 +13,17 @@ body { font: .74em Arial, Sans-Serif; background-image: url("background.jpg"); }
   cursor: pointer;
   border-radius: 12px;
 }
+.otsikkoHeader{
+  float: center;
+  max-width: 1200px;
+}
 
 h1 {padding: 20px 50px; margin:auto; max-width: 500px; text-align: center; font-size: 50px;}
 /* h1 {font-size: 12; } */
 
-.info {padding: 20px; border-style: inset; border: 2px solid black; border-radius: 5px;}
+.info {padding: 20px; border-style: inset; border: 2px solid black; border-radius: 5px; background-color: #A9A9A9}
 
-ul {padding: 20px 50px; margin:auto; max-width: 800px; text-align: center;}
+ul {clear: both; padding: 20px 50px; margin:auto; max-width: 800px; text-align: center;}
 li { display: inline; }
 
 #teksti { margin:auto; max-width: 560px; text-align: center;}
@@ -30,8 +34,18 @@ li { display: inline; }
     margin-right: auto;
     width: 50%;
 }
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 2%;
 
-#footer { clear: both; border-top: 5px solid #323232; background: #393939  bottom; color: #808080; padding: 10px 0; text-align: center; }
+}
+.otsikot{
+  font-family: serif;
+  text-shadow: 2px 2px black;
+  color: #FF6600  ;
+}
+#footer { clear: both; border-top: 5px solid #323232; background: #393939; color: #808080; padding: 10px 0; text-align: center; }
 	#footer li { padding: 5px 8px;}
 		#footer li a { color: #CB799F; }
 	#footer #col { float: center;   }
