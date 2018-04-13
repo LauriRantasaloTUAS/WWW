@@ -3,10 +3,14 @@
 <head>
 <title>Harley Davidson</title>
 <link rel="stylesheet" href="css/triumphStyle.css" type="text/css" />
+<link rel="stylesheet" href="css/header.css" type="text/css" />
+<link rel="stylesheet" href="css/fixed.css" type="text/css" />
 <link rel="stylesheet" href="css/footer.css" type="text/css" />
 <script src="js/triumph.js"></script>
+{{> responsive}}
 </head>
 <body>
+  {{> header}}
 <h1><button type="button" class="button" id="wikiButton">MoottoripyöräWiki</button></h1>
 <div class="info">
   <i>"Triumph Motorcycles on englantilainen moottoripyörävalmistaja, joka perustettiin alun perin Coventryssä 1889. Toisen maailmansodan jälkeen tehtaat siirrettiin Merideniin. Yhtiö lopetti toimintansa 1983, jonka jälkeen kiinteistösijoittaja John Bloor hankki oikeudet nimeen. Hän perusti uuden Triumphin Hinckleyhyn Leicestershireen, jonka valmistamat Triumph-moottoripyörät tulivat markkinoille 1990.
@@ -17,6 +21,7 @@ Tämä artikkeli käsittelee molempia - historiallista Triumphia ja modernia yht
 <img src="images/triumphKuva.jpg" id="triumphKuva">
 </div>
 <div>
+  {{> fixed}}
   {{> footer}}
 </div>
 </body>

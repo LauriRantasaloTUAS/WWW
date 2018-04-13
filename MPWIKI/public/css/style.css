@@ -34,12 +34,7 @@ li { display: inline; }
     margin-right: auto;
     width: 50%;
 }
-.fixed{
-    position: fixed;
-    bottom: 0;
-    right: 2%;
 
-}
 .otsikot{
   font-family: serif;
   text-shadow: 2px 2px black;

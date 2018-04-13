@@ -1,0 +1,5 @@
+#header { clear: both; border-top: 5px solid #323232; background: #a6a6a6; color: #808080; padding: 10px 0;}
+	#header { padding: 5px 8px;}
+		#header { color: #CB799F; }
+  #logo #boksi{float: left; margin-left: 30px;}
+  #logo{border-style: inset; border: 2px solid black; border-radius: 5px 5px;}
